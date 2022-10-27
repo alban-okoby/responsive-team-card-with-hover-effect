@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica, sans-serif;
+    transition: all .15s linear;
+}
+
+.team-container {
+    /* background: #dfdcdc; */
+    background-size: cover;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+    /* overflow: hidden; */
+
+}
+
+.team-container .team {
+    width: 25rem;
+    height: 17.5rem; 
+    box-shadow:  0 .2rem .2rem #111;
+    border: .5rem solid #fff;
+    margin: 1rem .938rem;
+    overflow: hidden;
+    border-bottom-left-radius: 22%;
+    border-top-right-radius: 22%;
+}
+
+.team-container .team img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.team-container .team .info {
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+    bottom: 2.5rem;
+}
+.team-container .team:hover .info{
+    bottom: 8rem;
+    background-color: #64ed10;
+
+}
+.team-container .team .info .title {
+   color: #343;
+   font-size: 1.25rem;
+   text-transform: capitalize;
+   padding: .625rem 0;
+}
+
+.team-container .team .info .post {
+    color: #444;
+    font-size: 0.938rem;
+}
+
+.team-container .team .info .share {
+    margin-top: .625rem;
+    border-top: .1rem solid #0dcd5a;
+}
+
+.team-container .team .info .share a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin: 1.25rem .625rem;
+    color: #343;
+}
+.team-container .team .info .share a:hover {
+    color: #999;
+}
