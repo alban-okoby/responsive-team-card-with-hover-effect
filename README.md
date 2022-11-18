@@ -10,6 +10,9 @@ Build an awesome responsive team card with hover effect
 ### Screen Demo 
 <p style="display:flex;justify-content:space-between">
     <img src="screen/card-with-hover-effect.png" /> 
+    <img src="screen/card-with-hover-effect-lg.png" />
+    <img src="screen/sm-view.png" /> 
+    <img src="screen/sm-hover-view.png" /> 
 </p>
 
 
